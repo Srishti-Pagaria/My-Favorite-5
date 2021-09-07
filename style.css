@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: linear-gradient(#2354c4 0%, #1ac785 100%);
+}
+
+.image1 {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 32px;
+}
+
+#welcome {
+    width: 100%;
+    opacity: 0.83;
+}
+
+.line {
+    height: 5px;
+    background-color: aquamarine;
+    width: 70px;
+    margin-bottom: 30px auto;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.link {
+    float: left;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.link:hover {
+    background-color: aquamarine;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+img {
+    height: 300px;
+    width: 200px;
+}
+
+#contact {
+    background-color: aquamarine;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline-block;
+}
+
+.contact_1 a {
+    text-decoration: none;
+}
+
+#writtings a {
+    text-shadow: none;
+    text-decoration: underline;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px white;
+}
